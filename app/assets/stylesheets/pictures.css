@@ -4,8 +4,12 @@
 */
 body {
   color: black;
-  font-size: 24px;
+  font-size: 36px Impact, sans-serif;
 
+}
+h1 {
+  text-align: center;
+  font: 72px Impact, sans-serif;
 }
 body  {
     background-image: url('https://photos.smugmug.com/Category/Wynwood-Walls/i-cXGBCHJ/0/06ca2ded/L/Robot%20Down2-L.jpg');
@@ -16,4 +20,7 @@ body  {
     background origin: content-box;
     background-position: center;
     background-size: cover;
+}
+th {
+  font: 36px Impact, sans-serif;
 }
