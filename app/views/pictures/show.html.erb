@@ -1,4 +1,4 @@
-<p id="notice"><%= notice %></p>
+<!-- <p id="notice"><%= notice %></p> -->
 
 <p>
   <%= @picture.title %>
@@ -7,6 +7,12 @@
 <p>
   <%= image_tag @picture.url %>
 </p>
+
+<h2>Reviews</h2>
+<%= render 'reviews/review', reviews: @picture.reviews%>
+
+<h2>Add a review:</h2>
+<%= render 'reviews/form' %>
 
 <%= link_to 'Edit', edit_picture_path(@picture) %> |
 <%= link_to 'Back', pictures_path %>

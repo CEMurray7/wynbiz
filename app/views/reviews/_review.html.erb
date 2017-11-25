@@ -1,0 +1,15 @@
+<% unless reviews.nil? %>
+   <% reviews.each do |review| %>
+   <p>
+     <strong>Reviewer:</strong>
+     <%= review.author %>
+   </p>
+
+   <p>
+     <strong>Review:</strong>
+     <%= review.body %>
+   </p>
+   <% end %>
+<% else %>
+   **no reviews yet**
+<% end %>
