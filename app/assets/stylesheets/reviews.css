@@ -2,3 +2,17 @@
   Place all the styles related to the matching controller here.
   They will automatically be included in application.css.
 */
+.title {
+  text-align: center;
+  font: 36px Impact, sans-serif;
+  color: black;
+  margin: 2px;
+  padding: 2px;
+}
+.review {
+  text-align: center;
+  font: 36px Impact, sans-serif;
+  color: black;
+  margin: 2px;
+  padding: 2px;
+}
