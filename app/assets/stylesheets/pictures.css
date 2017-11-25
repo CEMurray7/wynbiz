@@ -37,3 +37,20 @@ body  {
 #show td:hover, td:active {
     background-color: #5da3d9;
 }
+
+#edit td:link, td:visited {
+  background-color: #5da3d9;
+  color: white;
+  width: 6em;
+  height: 2.5em;
+  padding-top: .25em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-style: ridge;
+  border-color: f7f7f7;
+  float: flex;
+}
+#edit td:hover, td:active {
+  background-color: #5da3d9;
+}
