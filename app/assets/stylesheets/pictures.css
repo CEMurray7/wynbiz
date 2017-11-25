@@ -2,6 +2,7 @@
   Place all the styles related to the matching controller here.
   They will automatically be included in application.css.
 */
+<<<<<<< HEAD
 body {
   color: black;
   font-size: 36px Impact, sans-serif;
@@ -12,6 +13,17 @@ h1 {
   font: 72px Impact, sans-serif;
 }
 body  {
+=======
+
+h1 {
+  font: 72px Impact, sans-serif;
+  color: black;
+}
+
+body  {
+    color: black;
+    font: 36px Impact, sans-serif;
+>>>>>>> 855fbfa91bd0a13f96ca582ee78657281d70bbed
     background-image: url('https://photos.smugmug.com/Category/Wynwood-Walls/i-cXGBCHJ/0/06ca2ded/L/Robot%20Down2-L.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -21,6 +33,42 @@ body  {
     background-position: center;
     background-size: cover;
 }
+<<<<<<< HEAD
 th {
   font: 36px Impact, sans-serif;
+=======
+#show td:link, td:visited {
+    background-color: #5da3d9;
+    color: white;
+    width: 6em;
+    height: 2.5em;
+    padding-top: .25em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-style: ridge;
+    border-color: f7f7f7;
+    float: flex;
+}
+
+#show td:hover, td:active {
+    background-color: #5da3d9;
+}
+
+#edit td:link, td:visited {
+  background-color: #5da3d9;
+  color: white;
+  width: 6em;
+  height: 2.5em;
+  padding-top: .25em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-style: ridge;
+  border-color: f7f7f7;
+  float: flex;
+}
+#edit td:hover, td:active {
+  background-color: #5da3d9;
+>>>>>>> 855fbfa91bd0a13f96ca582ee78657281d70bbed
 }
