@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Dev team collaboration on a photo image hosting site intended to promote community well being and small business loyalty.   This repository documents the process of using a rails scaffold to create an app and deploying it to heroku.    
 
-Things you may want to cover:
+* Ruby version 2.4.2
+* postgres version 2.1.1
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
