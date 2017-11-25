@@ -2,3 +2,18 @@
   Place all the styles related to the matching controller here.
   They will automatically be included in application.css.
 */
+body {
+  color: black;
+  font-size: 24px;
+
+}
+body  {
+    background-image: url('https://photos.smugmug.com/Category/Wynwood-Walls/i-cXGBCHJ/0/06ca2ded/L/Robot%20Down2-L.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    outline: #8B0000 solid ;
+    background-color: #4d4d4d;
+    background origin: content-box;
+    background-position: center;
+    background-size: cover;
+}
