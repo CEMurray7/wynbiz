@@ -15,8 +15,6 @@ body  {
     background-repeat: no-repeat;
     background-attachment: fixed;
     outline: #8B0000 solid ;
-    background-color: #4d4d4d;
-    background origin: content-box;
     background-position: center;
     background-size: cover;
 }
@@ -30,8 +28,7 @@ body  {
     text-decoration: none;
     display: inline-block;
     border-style: ridge;
-    border-color: f7f7f7;
-    float: flex;
+    border-color: #f7f7f7;
 }
 
 #show td:hover, td:active {
@@ -48,8 +45,7 @@ body  {
   text-decoration: none;
   display: inline-block;
   border-style: ridge;
-  border-color: f7f7f7;
-  float: flex;
+  border-color: #f7f7f7;
 }
 #edit td:hover, td:active {
   background-color: #5da3d9;
