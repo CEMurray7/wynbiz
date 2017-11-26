@@ -1,27 +1,32 @@
 <!-- <p id="notice"><%= notice %></p> -->
 
-<span class="container" id="logo">
+   <div class="container" id="logo">
+
+
   <div class="row">
 
 
 <h1  style="text-align: center"><img class=" " style=""src="rsz_locallove.png" alt="WynBiz Logo"/> Local Love</h1>
 <h3>A Place for Locals, and Local Businesses to Meet</h3>
-</div>
-</span>
+
 
 <h2>Pictures</h2>
 
-<div class="new_picture"
+<div class="new_picture row">
   <div class="each_picture">
     <% @pictures.each do |picture| %>
   </div>
+       <div class="col-6" style="display: inline-block">
+
+
         <div class="each_title"><%= picture.title %></div>
        <div><%=  link_to image_tag(picture.url), picture_path(picture)%></div>
-     </div>
+
        <div class="buttons">
         <p id="show"><%= link_to 'Click here to Write your Review', picture_path(picture) %></p>
         <!-- <p id="edit"><%= link_to 'Edit', edit_picture_path(picture) %></p> -->
         <!-- <p id="destroy"><%= link_to 'Destroy', picture, method: :delete, data: { confirm: 'Are you sure?' } %></p> -->
+      </div>
       </div>
       <!-- </div> -->
     <% end %>
@@ -30,6 +35,8 @@
 
 <br>
 </div>
-
 </div>
+
+<!-- </div>
+</div> -->
 <!-- <div class="new_picture"><%#= link_to 'Add a New Picture', new_picture_path %></div> -->
