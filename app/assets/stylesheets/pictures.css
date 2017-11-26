@@ -66,7 +66,7 @@ body  {
 }*/
 .each_picture{
   text-align: center;
-  font: 24px Impact, sans-serif;
+  font: 36px Impact, sans-serif;
   color: white;
   text-shadow: 2px 2px black;
   margin: 2px;
@@ -76,8 +76,7 @@ body  {
 }
 .each_title {
   /*text-align: center;*/
-  font-size: 24px;
-  color: black;
+  font-size: 36px;
   font: 24px Impact, sans-serif;
   color: white;
   text-shadow: 2px 2px black;
@@ -90,11 +89,17 @@ body  {
   flex-direction: row;
 }
 #show {
+  font-size: 36px;
   font: 24px Impact, sans-serif;
+  color: white;
+  text-shadow: 2px 2px black;
+  margin: 2px;
+  padding: 2px;
+
 
 }
 #show:link, #show:visited {
-    background-color: #5da3d9;
+    background-color: #ffffff;
     color: white;
     width: 6em;
     height: 2.5em;

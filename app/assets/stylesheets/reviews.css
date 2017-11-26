@@ -10,6 +10,27 @@
   margin: 2px;
   padding: 2px;
 }
+#review_body {
+  font: 36px Impact, sans-serif;
+  color: white;
+  text-shadow: 2px 2px black;
+  margin: 2px;
+  padding: 2px;
+}
+#review_author {
+  font: 36px Impact, sans-serif;
+  color: white;
+  text-shadow: 2px 2px black;
+  margin: 2px;
+  padding: 2px;
+}
+#review_picture {
+  font: 36px Impact, sans-serif;
+  color: white;
+  text-shadow: 2px 2px black;
+  margin: 2px;
+  padding: 2px;
+}
 .title {
   font: 36px Impact, sans-serif;
   color: white;
