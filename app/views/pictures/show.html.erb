@@ -2,7 +2,7 @@
 
 <div class="container">
    <div class="row">
-      
+
 <h1  style="text-align: center">
    <%= link_to pictures_path do %>
       <%= image_tag("/images/rsz_locallove.png") %>
@@ -20,7 +20,8 @@
       </p>
 
       <h2>Reviews</h2>
-      <%= render 'reviews/review', reviews: @picture.reviews%>
+
+      <%= render partial: 'reviews/list', locals: { reviews: @picture.reviews } %>
 
       <h2>Add a review:</h2>
       <%= render 'reviews/form' %>

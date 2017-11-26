@@ -1,6 +1,6 @@
 class ReviewsController < ApplicationController
-  before_action :set_review, only: [:show, :edit, :update, :destroy]
-
+   before_action :set_picture, only: [:destroy]
+   before_action :set_review, only: [:show, :edit, :update, :destroy]
   # GET /reviews
   # GET /reviews.json
   def index
@@ -54,9 +54,10 @@ class ReviewsController < ApplicationController
   # DELETE /reviews/1
   # DELETE /reviews/1.json
   def destroy
+    @review = @picture.reviews.find(params[:id])
     @review.destroy
     respond_to do |format|
-      format.html { redirect_to reviews_url, notice: 'Review was successfully destroyed.' }
+      format.html { redirect_to @picture, notice: 'Review was successfully destroyed.' }
       format.json { head :no_content }
     end
   end
@@ -65,6 +66,10 @@ class ReviewsController < ApplicationController
     # Use callbacks to share common setup or constraints between actions.
     def set_review
       @review = Review.find(params[:id])
+    end
+
+    def set_picture
+      @picture = Picture.find(params[:picture_id])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
