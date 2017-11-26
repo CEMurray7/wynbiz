@@ -3,7 +3,7 @@
   They will automatically be included in application.css.
 */
 *{
-   
+
 }
 
 
@@ -105,12 +105,4 @@ body  {
 
 #show:hover, #show:active {
     background-color: #ffffff;
-}
-
-.new_picture {
-  font: 36px Impact, sans-serif;
-  color: white;
-  text-shadow: 2px 2px black;
-  margin: 2px;
-  padding: 2px;
 }
