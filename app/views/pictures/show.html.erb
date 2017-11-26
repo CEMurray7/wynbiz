@@ -1,12 +1,24 @@
-<p id="notice"><%= notice %></p>
+<!-- <p id="notice"><%= notice %></p> -->
+<div class="container">
+   <div class="row">
 
-<p>
-  <%= @picture.title %>
-</p>
 
-<p>
-  <%= image_tag @picture.url %>
-</p>
+      <p>
+         <%= @picture.title %>
+      </p>
 
-<%= link_to 'Edit', edit_picture_path(@picture) %> |
-<%= link_to 'Back', pictures_path %>
+      <p>
+         <%= image_tag @picture.url %>
+      </p>
+
+      <h2>Reviews</h2>
+      <%= render 'reviews/review', reviews: @picture.reviews%>
+
+      <h2>Add a review:</h2>
+      <%= render 'reviews/form' %>
+
+      <%= link_to 'Edit', edit_picture_path(@picture) %> |
+      <%= link_to 'Back', pictures_path %>
+   </div>
+
+</div>
