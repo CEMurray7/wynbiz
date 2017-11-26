@@ -5,7 +5,7 @@
 
 body {
   color: #f7f7f7;
-  font-size: 36px Impact, sans-serif;
+  font: 36px Impact, sans-serif;
 }
 #logo {
   /*display: flex;*/
