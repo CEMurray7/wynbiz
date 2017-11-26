@@ -12,26 +12,20 @@
       <h2>Pictures</h2>
 
       <div class="row">
-         <div class="each_picture">
-            <% @pictures.each do |picture| %>
-         </div>
-         <div class="col-6" style="display: inline-block">
+         <% @pictures.each do |picture| %>
+            <div class="col-md-6">
 
 
-            <div class="each_title"><%= picture.title %></div>
-            <div class="image_fit"><%=  link_to image_tag(picture.url), picture_path(picture)%></div>
+               <div class="each_title"><%= picture.title %></div>
+               <div class="image_fit"><%=  link_to image_tag(picture.url, class: 'img-responsive'), picture_path(picture)%></div>
 
-            <div class="buttons">
-               <p id="show"><%= link_to 'Click here to Write your Review', picture_path(picture) %></p>
-               <!-- <p id="edit"><%= link_to 'Edit', edit_picture_path(picture) %></p> -->
-               <!-- <p id="destroy"><%= link_to 'Destroy', picture, method: :delete, data: { confirm: 'Are you sure?' } %></p> -->
+               <div class="buttons">
+                  <p id="show"><%= link_to 'Click here to Write your Review', picture_path(picture) %></p>
+                  <!-- <p id="edit"><%= link_to 'Edit', edit_picture_path(picture) %></p> -->
+                  <!-- <p id="destroy"><%= link_to 'Destroy', picture, method: :delete, data: { confirm: 'Are you sure?' } %></p> -->
+               </div>
             </div>
-         </div>
-         <!-- </div> -->
          <% end %>
-         <!-- </div> -->
-
-
          <br>
       </div>
    </div>
