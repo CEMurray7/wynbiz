@@ -52,7 +52,6 @@ body  {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: #4d4d4d;
-    background origin: content-box;
     background-position: center;
     background-size: cover;
 }
@@ -90,7 +89,7 @@ body  {
   font: 24px Impact, sans-serif;
 
 }
-#show:link_to, #show:visited {
+#show:link, #show:visited {
     background-color: #5da3d9;
     color: white;
     width: 6em;
