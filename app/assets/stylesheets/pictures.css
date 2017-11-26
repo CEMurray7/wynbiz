@@ -6,10 +6,19 @@
 body {
   color: #f7f7f7;
   font-size: 36px Impact, sans-serif;
-
-
+}
+#logo {
+  /*display: flex;*/
+  width: 100%;
+  /*padding-top: 2em;*/
+  align-content: center;
+  /*padding-left: 20em;*/
+  /*padding-right: 20em;*/
 }
 h1 {
+  /*display: inline-block;*/
+  /*align-content: space-between;*/
+  width: 100%
   text-align: center;
   font: 72px Impact, sans-serif;
   color: black;
@@ -22,6 +31,7 @@ h2 {
   text-align: center;
   font: 48px Impact, sans-serif;
   color: black;
+  text-shadow: white;
   padding: 2px;
   margin: 2px;
 }
@@ -44,6 +54,28 @@ body  {
     background-position: center;
     background-size: cover;
 }
+/*.new_picture-path {
+  display: flex;
+  border: solid;
+  border-color: #59acfd;
+}*/
+.each_picture{
+  text-align: center;
+  font: 24px Impact, sans-serif;
+  color: black;
+  margin: 2px;
+  padding: 2px;
+  /*border: solid;*/
+  /*border-color: #59acfd;*/
+}
+.each_title {
+  /*text-align: center;*/
+  font: 24px Impact, sans-serif;
+  color: black;
+  margin: 2px;
+  padding: 2px;
+}
+
 .buttons {
   display: flex;
   flex-direction: row;
