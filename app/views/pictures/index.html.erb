@@ -1,12 +1,16 @@
 
-
-   <div class="container" id="logo">
-
-
-  <div class="row">
+<div class="container" id="logo">
 
 
-<h1  style="text-align: center"><img style=""src="rsz_locallove.png" alt="Local Love Logo"/> </h1>
+   <div class="row">
+
+
+      <h1  style="text-align: center">
+         <%= link_to pictures_path do %>
+            <%= image_tag("/images/rsz_locallove.png") %>
+         <% end %>
+      </h1>
+
 <h3 class="each_picture">A Place for Locals, and Local Businesses to Meet</h3>
 
 
@@ -27,14 +31,9 @@
         <!-- <p id="edit"><%= link_to 'Edit', edit_picture_path(picture) %></p> -->
         <!-- <p id="destroy"><%= link_to 'Destroy', picture, method: :delete, data: { confirm: 'Are you sure?' } %></p> -->
       </div>
+
       </div>
-      <!-- </div> -->
-    <% end %>
-  <!-- </div> -->
-
-
-<br>
-</div>
+   </div>
 </div>
 
 <!-- </div>

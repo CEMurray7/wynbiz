@@ -14,3 +14,6 @@
  *= require_self
  *=require bootstrap/dist/css/bootstrap.min
  */
+ ul li{
+    list-style-type: none;
+ }

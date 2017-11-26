@@ -1,13 +1,11 @@
 <% unless reviews.nil? %>
    <% reviews.each do |review| %>
    <p id="reviewer">
-     
      <%= review.author %>
    </p>
 
    <p>
-
-<div id="review_body">     <%= review.body %> </div>
+     <%= review.body %>
    </p>
    <% end %>
 <% else %>
