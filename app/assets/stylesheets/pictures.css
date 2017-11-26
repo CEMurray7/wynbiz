@@ -21,7 +21,8 @@ h1 {
   width: 100%
   text-align: center;
   font: 72px Impact, sans-serif;
-  color: black;
+  text-shadow: 2px 2px black;
+  color: white;
   margin: 1px;
   padding: 2px;
 }
@@ -30,15 +31,16 @@ h1 {
 h2 {
   text-align: center;
   font: 48px Impact, sans-serif;
-  color: black;
-  text-shadow: white;
+  color: white;
+  text-shadow: 2px 2px black;
   padding: 2px;
   margin: 2px;
 }
 h3 {
   text-align: center;
   font: 36px Impact, sans-serif;
-  color: black;
+  color: white;
+  text-shadow: 2px 2px black;
   margin: 2px;
   padding: 2px;
 }
@@ -62,7 +64,8 @@ body  {
 .each_picture{
   text-align: center;
   font: 24px Impact, sans-serif;
-  color: black;
+  color: white;
+  text-shadow: 2px 2px black;
   margin: 2px;
   padding: 2px;
   /*border: solid;*/
@@ -70,8 +73,14 @@ body  {
 }
 .each_title {
   /*text-align: center;*/
+<<<<<<< HEAD
   font-size: 24px;
   color: black;
+=======
+  font: 24px Impact, sans-serif;
+  color: white;
+  text-shadow: 2px 2px black;
+>>>>>>> 025e5912bd43cb44bb496cf1fd6eddca211acefe
   margin: 2px;
   padding: 2px;
 }
@@ -100,7 +109,7 @@ body  {
 #show:hover, #show:active {
     background-color: #ffffff;
 }
-
+/*
 #edit {
   font: 24px Impact, sans-serif
 }
@@ -139,4 +148,15 @@ body  {
 }
 #destroy:hover, #destroy:active {
   background-color: #ffffff;
+<<<<<<< HEAD
+=======
+}*/
+.new_picture {
+  text-align: center;
+  font: 36px Impact, sans-serif;
+  color: white;
+  text-shadow: 2px 2px black;
+  margin: 2px;
+  padding: 2px;
+>>>>>>> 025e5912bd43cb44bb496cf1fd6eddca211acefe
 }
