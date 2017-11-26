@@ -3,9 +3,6 @@
   They will automatically be included in application.css.
 */
 
-*{
-   font: Impact;
-}
 
 #logo {
   /*display: flex;*/
@@ -18,7 +15,7 @@
 h1 {
   /*display: inline-block;*/
   /*align-content: space-between;*/
-  width: 100%
+  width: 100%;
   text-align: center;
   font: 72px Impact, sans-serif;
   text-shadow: 2px 2px black;
