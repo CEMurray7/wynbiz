@@ -19,7 +19,7 @@
 
 
         <div class="each_title"><%= picture.title %></div>
-       <div><%=  link_to image_tag(picture.url), picture_path(picture)%></div>
+       <div class="image_fit"><%=  link_to image_tag(picture.url), picture_path(picture)%></div>
 
        <div class="buttons">
         <p id="show"><%= link_to 'Click here to Write your Review', picture_path(picture) %></p>
@@ -33,6 +33,7 @@
 
 
 <br>
+</div>
 </div>
 </div>
 
