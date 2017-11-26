@@ -2,3 +2,106 @@
   Place all the styles related to the matching controller here.
   They will automatically be included in application.css.
 */
+*{
+
+}
+
+
+#logo {
+  /*display: flex;*/
+  /*width: 100%;*/
+  /*padding-top: 2em;*/
+  align-content: center;
+  /*padding-left: 20em;*/
+  /*padding-right: 20em;*/
+}
+h1 {
+  /*display: inline-block;*/
+  /*align-content: space-between;*/
+  width: 100%;
+  text-align: center;
+  font: 72px Impact, sans-serif;
+  text-shadow: 2px 2px black;
+  color: white;
+  margin: 1px;
+  padding: 2px;
+}
+
+
+h2 {
+  text-align: center;
+  font: 48px Impact, sans-serif;
+  color: white;
+  text-shadow: 2px 2px black;
+  padding: 2px;
+  margin: 2px;
+}
+h3 {
+  text-align: center;
+  font: 36px Impact, sans-serif;
+  color: white;
+  text-shadow: 2px 2px black;
+  margin: 2px;
+  padding: 2px;
+}
+
+body  {
+    color: #f7f7f7;
+    font: 36px Impact, sans-serif;
+    background-image: url('https://photos.smugmug.com/Category/Wynwood-Walls/i-cXGBCHJ/0/06ca2ded/L/Robot%20Down2-L.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #4d4d4d;
+    background-position: center;
+    background-size: cover;
+}
+/*.new_picture-path {
+  display: flex;
+  border: solid;
+  border-color: #59acfd;
+}*/
+.each_picture{
+  text-align: center;
+  font: 24px Impact, sans-serif;
+  color: white;
+  text-shadow: 2px 2px black;
+  margin: 2px;
+  padding: 2px;
+  /*border: solid;*/
+  /*border-color: #59acfd;*/
+}
+.each_title {
+  /*text-align: center;*/
+  font-size: 24px;
+  color: black;
+  font: 24px Impact, sans-serif;
+  color: white;
+  text-shadow: 2px 2px black;
+  margin: 2px;
+  padding: 2px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+#show {
+  font: 24px Impact, sans-serif;
+
+}
+#show:link, #show:visited {
+    background-color: #5da3d9;
+    color: white;
+    width: 6em;
+    height: 2.5em;
+    padding-top: .25em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-style: ridge;
+    border-color: #f7f7f7;
+}
+
+#show:hover, #show:active {
+    background-color: #ffffff;
+}

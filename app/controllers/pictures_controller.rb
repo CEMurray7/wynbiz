@@ -10,7 +10,8 @@ class PicturesController < ApplicationController
   # GET /pictures/1
   # GET /pictures/1.json
   def show
-     @picture = Picture.find(params[:id])
+   # @picture is defined by the private method set_picture invoked by the before_action set at the top of this file
+   @review = @picture.reviews.new
   end
 
   # GET /pictures/new

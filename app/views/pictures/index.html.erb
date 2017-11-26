@@ -1,29 +1,42 @@
-<p id="notice"><%= notice %></p>
+<!-- <p id="notice"><%= notice %></p> -->
 
-<h1>Pictures</h1>
+   <div class="container" id="logo">
 
-<table>
-  <thead>
-    <tr>
-      <!-- <th>Title</th>
-      <th>Pic</th>
-      <th colspan="3"></th> -->
-    </tr>
-  </thead>
 
-  <tbody>
+  <div class="row">
+
+
+<h1  style="text-align: center"><img style=""src="rsz_locallove.png" alt="Local Love Logo"/> Local Love</h1>
+<h3>A Place for Locals, and Local Businesses to Meet</h3>
+
+
+<h2>Pictures</h2>
+
+<div class="row">
+  <div class="each_picture">
     <% @pictures.each do |picture| %>
-      <tr>
-        <td><%= picture.title %></td>
-        <td> <%=   image_tag picture.url  %></td>
-        <td><%= link_to 'Show', picture_path(picture) %></td>
-        <td><%= link_to 'Edit', edit_picture_path(picture) %></td>
-        <td><%= link_to 'Destroy', picture, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
+  </div>
+       <div class="col-6" style="display: inline-block">
+
+
+        <div class="each_title"><%= picture.title %></div>
+       <div><%=  link_to image_tag(picture.url), picture_path(picture)%></div>
+
+       <div class="buttons">
+        <p id="show"><%= link_to 'Click here to Write your Review', picture_path(picture) %></p>
+        <!-- <p id="edit"><%= link_to 'Edit', edit_picture_path(picture) %></p> -->
+        <!-- <p id="destroy"><%= link_to 'Destroy', picture, method: :delete, data: { confirm: 'Are you sure?' } %></p> -->
+      </div>
+      </div>
+      <!-- </div> -->
     <% end %>
-  </tbody>
-</table>
+  <!-- </div> -->
+
 
 <br>
+</div>
+</div>
 
-<%= link_to 'New Picture', new_picture_path %>
+<!-- </div>
+</div> -->
+<!-- <div class="new_picture"><%#= link_to 'Add a New Picture', new_picture_path %></div> -->
