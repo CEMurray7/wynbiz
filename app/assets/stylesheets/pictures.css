@@ -2,10 +2,10 @@
   Place all the styles related to the matching controller here.
   They will automatically be included in application.css.
 */
-
 *{
-   font: Impact;
+
 }
+
 
 #logo {
   /*display: flex;*/
@@ -18,7 +18,7 @@
 h1 {
   /*display: inline-block;*/
   /*align-content: space-between;*/
-  width: 100%
+  width: 100%;
   text-align: center;
   font: 72px Impact, sans-serif;
   text-shadow: 2px 2px black;
@@ -52,7 +52,6 @@ body  {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: #4d4d4d;
-    background origin: content-box;
     background-position: center;
     background-size: cover;
 }
@@ -90,7 +89,7 @@ body  {
   font: 24px Impact, sans-serif;
 
 }
-#show:link_to, #show:visited {
+#show:link, #show:visited {
     background-color: #5da3d9;
     color: white;
     width: 6em;
@@ -105,12 +104,4 @@ body  {
 
 #show:hover, #show:active {
     background-color: #ffffff;
-}
-
-.new_picture {
-  font: 36px Impact, sans-serif;
-  color: white;
-  text-shadow: 2px 2px black;
-  margin: 2px;
-  padding: 2px;
 }
