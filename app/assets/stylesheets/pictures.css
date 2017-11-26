@@ -3,13 +3,13 @@
   They will automatically be included in application.css.
 */
 
-body {
-  color: #f7f7f7;
-  font: 36px Impact, sans-serif;
+*{
+   font: Impact;
 }
+
 #logo {
   /*display: flex;*/
-  width: 100%;
+  /*width: 100%;*/
   /*padding-top: 2em;*/
   align-content: center;
   /*padding-left: 20em;*/
@@ -51,7 +51,6 @@ body  {
     background-image: url('https://photos.smugmug.com/Category/Wynwood-Walls/i-cXGBCHJ/0/06ca2ded/L/Robot%20Down2-L.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    /*outline: #8B0000 solid ;*/
     background-color: #4d4d4d;
     background origin: content-box;
     background-position: center;
@@ -74,6 +73,8 @@ body  {
 }
 .each_title {
   /*text-align: center;*/
+  font-size: 24px;
+  color: black;
   font: 24px Impact, sans-serif;
   color: white;
   text-shadow: 2px 2px black;
@@ -99,56 +100,14 @@ body  {
     text-decoration: none;
     display: inline-block;
     border-style: ridge;
-    border-color: f7f7f7;
-    float: flex;
+    border-color: #f7f7f7;
 }
 
 #show:hover, #show:active {
     background-color: #ffffff;
 }
-/*
-#edit {
-  font: 24px Impact, sans-serif
-}
-#edit:link_to, #edit:visited {
-  background-color: #ffffff;
-  color: white;
-  width: 6em;
-  height: 2.5em;
-  padding-top: .25em;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  border-style: ridge;
-  border-color: f7f7f7;
-  float: flex;
-}
-#edit:hover, #edit:active {
-  background-color: #ffffff;
-}
 
-#destroy {
-  font: 24px Impact, sans-serif
-}
-
-#destroy:link_to, #destroy:visited {
-  background-color: #ffffff;
-  color: white;
-  width: 6em;
-  height: 2.5em;
-  padding-top: .25em;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  border-style: ridge;
-  border-color: f7f7f7;
-  float: flex;
-}
-#destroy:hover, #destroy:active {
-  background-color: #ffffff;
-}*/
 .new_picture {
-  text-align: center;
   font: 36px Impact, sans-serif;
   color: white;
   text-shadow: 2px 2px black;

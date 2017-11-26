@@ -27,8 +27,7 @@
   </div>
 
   <div class="field">
-    <%= form.label :picture_id %>
-    <%= form.text_field :picture_id, id: :review_picture_id %>
+    <%= form.hidden_field :picture_id, value: @picture.id %>
   </div>
 
   <div class="actions">
