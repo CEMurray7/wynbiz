@@ -73,14 +73,11 @@ body  {
 }
 .each_title {
   /*text-align: center;*/
-<<<<<<< HEAD
   font-size: 24px;
   color: black;
-=======
   font: 24px Impact, sans-serif;
   color: white;
   text-shadow: 2px 2px black;
->>>>>>> 025e5912bd43cb44bb496cf1fd6eddca211acefe
   margin: 2px;
   padding: 2px;
 }
@@ -109,54 +106,11 @@ body  {
 #show:hover, #show:active {
     background-color: #ffffff;
 }
-/*
-#edit {
-  font: 24px Impact, sans-serif
-}
-#edit:link_to, #edit:visited {
-  background-color: #ffffff;
-  color: white;
-  width: 6em;
-  height: 2.5em;
-  padding-top: .25em;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  border-style: ridge;
-  border-color: #f7f7f7;
-}
-#edit:hover, #edit:active {
-  background-color: #ffffff;
-}
 
-#destroy {
-  font: 24px Impact, sans-serif
-}
-
-#destroy:link_to, #destroy:visited {
-  background-color: #ffffff;
-  color: white;
-  width: 6em;
-  height: 2.5em;
-  padding-top: .25em;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  border-style: ridge;
-  border-color: f7f7f7;
-  float: flex;
-}
-#destroy:hover, #destroy:active {
-  background-color: #ffffff;
-<<<<<<< HEAD
-=======
-}*/
 .new_picture {
-  text-align: center;
   font: 36px Impact, sans-serif;
   color: white;
   text-shadow: 2px 2px black;
   margin: 2px;
   padding: 2px;
->>>>>>> 025e5912bd43cb44bb496cf1fd6eddca211acefe
 }
