@@ -11,7 +11,6 @@
          <% end %>
       </h1>
 
-<<<<<<< HEAD
       <h3>A Place for Locals, and Local Businesses to Meet</h3>
 
 
@@ -30,29 +29,6 @@
             </div>
          <% end %>
          <br>
-=======
-<h3 class="each_picture">A Place for Locals, and Local Businesses to Meet</h3>
-
-
-<h2 class="title">Pictures</h2>
-
-<div class="row">
-  <div class="each_picture">
-    <% @pictures.each do |picture| %>
-  </div>
-       <div class="col-6" style="display: inline-block">
-
-
-        <div class="each_picture"><%= picture.title %></div>
-       <div class="each_picture"><%=  link_to image_tag(picture.url), picture_path(picture)%></div>
-
-       <div class="buttons">
-        <p id="show"><%= link_to 'Click here to Write your Review', picture_path(picture) %></p>
-        <!-- <p id="edit"><%= link_to 'Edit', edit_picture_path(picture) %></p> -->
-        <!-- <p id="destroy"><%= link_to 'Destroy', picture, method: :delete, data: { confirm: 'Are you sure?' } %></p> -->
-      </div>
-
->>>>>>> 2b7990ee76439fdf61d46a08aac67c13d08512c2
       </div>
    </div>
 </div>
