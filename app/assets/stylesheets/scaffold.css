@@ -9,7 +9,13 @@ body, p, ol, ul, td {
   font-size: 13px;
   line-height: 18px;
 }
-
+p {
+  font: 24px Impact, sans-serif;
+  color: white;
+  text-shadow: 2px 2px black;
+  margin: 2px;
+  padding: 2px;
+}
 pre {
   background-color: #eee;
   padding: 10px;
