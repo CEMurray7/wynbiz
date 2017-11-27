@@ -8,9 +8,9 @@ body {
 }
 
 p, ol, ul, td {
-  font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
+  // font-family: verdana, arial, helvetica, sans-serif;
+  // font-size: 13px;
+  // line-height: 18px;
 }
 
 pre {
@@ -62,7 +62,13 @@ div {
   padding: 7px 7px 0;
   margin-bottom: 20px;
   background-color: #f0f0f0;
-
+p {
+  font: 24px Impact, sans-serif;
+  color: white;
+  text-shadow: 2px 2px black;
+  margin: 2px;
+  padding: 2px;
+}
   h2 {
     text-align: left;
     font-weight: bold;
