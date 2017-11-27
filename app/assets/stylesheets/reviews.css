@@ -2,85 +2,41 @@
   Place all the styles related to the matching controller here.
   They will automatically be included in application.css.
 */
-#review_title {
-  /*text-align: center;*/
+/*.title {
+  text-align: center;
   font: 36px Impact, sans-serif;
-  color: white;
-  text-shadow: 2px 2px black;
-  margin: 2px;
-  padding: 2px;
-}
-#review_body {
-  font: 36px Impact, sans-serif;
-  color: white;
-  text-shadow: 2px 2px black;
-  margin: 2px;
-  padding: 2px;
-}
-#review_author {
-  font: 36px Impact, sans-serif;
-  color: white;
-  text-shadow: 2px 2px black;
-  margin: 2px;
-  padding: 2px;
-}
-#review_picture {
-  font: 36px Impact, sans-serif;
-  color: white;
-  text-shadow: 2px 2px black;
-  margin: 2px;
-  padding: 2px;
-}
-.title {
-  font: 36px Impact, sans-serif;
-  color: white;
-  text-shadow: 2px 2px black;
+  color: black;
   margin: 2px;
   padding: 2px;
 }
 .author {
-  /*text-align: center;*/
+  text-align: center;
   font: 36px Impact, sans-serif;
-  color: white;
-  text-shadow: 2px 2px black;
+  color: black;
   margin: 2px;
   padding: 2px;
 }
 .body {
-  /*text-align: center;*/
+  text-align: center;
   font: 36px Impact, sans-serif;
-  color: white;
-  text-shadow: 2px 2px black;
+  color: black;
   margin: 2px;
   padding: 2px;
-}
+}*/
+
+
+
 #review {
-  /*text-align: center;*/
+  text-align: center;
   font: 36px Impact, sans-serif;
-  color: white;
-  text-shadow: 2px 2px black;
+  color: black;
   margin: 2px;
   padding: 2px;
 }
 #reviewer {
-  /*text-align: center;*/
+  text-align: center;
   font: 36px Impact, sans-serif;
-  color: white;
-  text-shadow: 2px 2px black;
-  margin: 2px;
-  padding: 2px;
-}
-#review_body {
-  font: 36px Impact, sans-serif;
-  color: white;
-  margin: 2px;
-  padding: 2px;
-  text-shadow: 2px 2px black;
-}
-.show_review {
-  font: 36px Impact, sans-serif;
-  color: white;
-  text-shadow: 2px 2px black;
+  color: black;
   margin: 2px;
   padding: 2px;
 }

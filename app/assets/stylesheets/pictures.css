@@ -85,6 +85,14 @@ body  {
 .image_fit {
    width: 100%;
 }
+.grid_box{
+   height: 500px;
+   width: 500px;
+}
+.image_full {
+   width: 100%;
+   height: 100%;
+}
 .each_title {
   /*text-align: center;*/
 
