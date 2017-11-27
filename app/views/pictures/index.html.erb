@@ -20,7 +20,7 @@
          <% @pictures.each do |picture| %>
             <div class="col-md-6">
                <div class="each_title"><%= picture.title %></div>
-               <div class="grid_box"><%=  link_to image_tag(picture.url, class: 'img-responsivec image_full'), picture_path(picture)%></div>
+               <div class="grid_box"><%=  link_to image_tag(picture.url, class: 'img-responsivec image_full, grid_box'), picture_path(picture)%></div>
                <div class="buttons">
                   <p id="show"><%= link_to 'Click here to Write your Review', picture_path(picture) %></p>
                   <!-- <p id="edit"><%= link_to 'Edit', edit_picture_path(picture) %></p> -->
