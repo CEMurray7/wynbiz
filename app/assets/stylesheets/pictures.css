@@ -50,7 +50,7 @@ h3 {
   padding: 2px;
 }
 body  {
-    color: #f7f7f7;
+
     font: 36px Impact, sans-serif;
     background-image: url('https://photos.smugmug.com/Category/Wynwood-Walls/i-cXGBCHJ/0/06ca2ded/L/Robot%20Down2-L.jpg');
     background-repeat: no-repeat;
@@ -75,6 +75,13 @@ body  {
   /*border: solid;*/
   /*border-color: #59acfd;*/
 }
+.grid_box {
+  font: 24px Impact, sans-serif;
+  color: white;
+  text-shadow: 2px 2px black;
+  margin: 2px;
+  padding: 2px;
+}
 .image_fit {
    width: 100%;
 }
@@ -86,10 +93,24 @@ body  {
    width: 100%;
    height: 100%;
 }
+.main_title {
+  font: 48px Impact, sans-serif;
+  color: white;
+  text-shadow: 2px 2px black;
+  margin: 2px;
+  padding: 2px;
+}
+.picture_title {
+  font: 36px Impact, sans-serif;
+  color: white;
+  text-shadow: 2px 2px black;
+  margin: 2px;
+  padding: 2px;
+}
 .each_title {
   /*text-align: center;*/
 
-  font: 24px Impact, sans-serif;
+font: 24px Impact, sans-serif;
   color: white;
   text-shadow: 2px 2px black;
   margin: 2px;
@@ -99,6 +120,11 @@ body  {
 .buttons {
   display: flex;
   flex-direction: row;
+  font: 24px Impact, sans-serif;
+  color: white;
+  text-shadow: 2px 2px black;
+  margin: 2px;
+  padding: 2px;
 }
 #show {
   font-size: 36px;
@@ -109,7 +135,7 @@ body  {
   padding: 2px;
 }
 #show:link, #show:visited {
-    background-color: #ffffff;
+    background-color: white;
     color: white;
     width: 6em;
     height: 2.5em;
@@ -118,9 +144,9 @@ body  {
     text-decoration: none;
     display: inline-block;
     border-style: ridge;
-    border-color: #f7f7f7;
+    border-color: black;
 }
 
 #show:hover, #show:active {
-    /*background-color: #ffffff;*/
+    background-color: #ffffff;
 }
