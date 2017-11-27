@@ -38,7 +38,7 @@
   padding: 2px;
 }
 
-#review_body {
+.review_body {
   font: 24px Impact, sans-serif;
   color: white;
   text-shadow: 2px 2px black;
