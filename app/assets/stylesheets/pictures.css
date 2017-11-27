@@ -13,6 +13,14 @@
   /*padding-left: 20em;*/
   /*padding-right: 20em;*/
 }
+a {
+  font-size: 36px;
+  font: 24px Impact, sans-serif;
+  color: white !important;
+  text-shadow: 2px 2px black;
+  margin: 2px;
+  padding: 2px;
+}
 nav {
    width: 100%;
    -webkit-box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.49);
@@ -108,7 +116,6 @@ body  {
   padding: 2px;
 }
 .each_title {
-  /*text-align: center;*/
 
 font: 24px Impact, sans-serif;
   color: white;
