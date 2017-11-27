@@ -7,7 +7,6 @@
 
     <h3 class="main_title">A Place for Locals, and Local Businesses to Meet</h3>
 
-
     <h2 class="picture_title">Pictures</h2>
 
     <div class="row">
@@ -26,6 +25,14 @@
        <% end %>
        <br>
     </div>
+
+            <!-- <h3>My Google Maps Demo</h3> -->
+      <div id="map"></div>
+      <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=<%=ENV['GOOGLE_API_KEY']%>=initMap">
+      </script>
+
+      
 </div>
 
 
