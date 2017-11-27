@@ -19,11 +19,11 @@
          <%= image_tag @picture.url %>
       </p>
 
-      <h2>Reviews</h2>
+      <h2 class="review_body">Reviews</h2>
 
       <%= render partial: 'reviews/list', locals: { reviews: @picture.reviews } %>
 
-      <h2>Add a review:</h2>
+      <h2 class="review_body">Add a review:</h2>
       <%= render 'reviews/form' %>
 
       <%= link_to 'Edit', edit_picture_path(@picture) %> |
