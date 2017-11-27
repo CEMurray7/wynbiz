@@ -28,6 +28,12 @@
 
       <%= link_to 'Edit', edit_picture_path(@picture) %> |
       <%= link_to 'Back', pictures_path %>
+
+      <h3>My Google Maps Demo</h3>
+<div id="map"></div>
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=<%=ENV['GOOGLE_API_KEY']%>=initMap">
+</script>
    </div>
 
 </div>
