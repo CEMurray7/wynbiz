@@ -1,40 +1,29 @@
+<h1  style="text-align: center">
+       <%= link_to root_path do %>
+          <%=image_tag("/images/rsz_locallove.png") %>
+       <% end %>
+    </h1>
+
+    <h3 class="main_title">A Place for Locals, and Local Businesses to Meet</h3>
 
 
-   <div class="container" id="logo">
+    <h2 class="picture_title">Pictures</h2>
 
-
-  <div class="row">
-
-
-<h1  style="text-align: center"><img style=""src="rsz_locallove.png" alt="Local Love Logo"/> Local Love</h1>
-<h3>A Place for Locals, and Local Businesses to Meet</h3>
-
-
-<h2>Pictures</h2>
-
-<div class="row">
-  <div class="each_picture">
-    <% @pictures.each do |picture| %>
-  </div>
-       <div class="col-6" style="display: inline-block">
-
-
-        <div class="each_title"><%= picture.title %></div>
-       <div><%=  link_to image_tag(picture.url), picture_path(picture)%></div>
-
-       <div class="buttons">
-        <p id="show"><%= link_to 'Click here to Write your Review', picture_path(picture) %></p>
-        <!-- <p id="edit"><%= link_to 'Edit', edit_picture_path(picture) %></p> -->
-        <!-- <p id="destroy"><%= link_to 'Destroy', picture, method: :delete, data: { confirm: 'Are you sure?' } %></p> -->
-      </div>
-      </div>
-      <!-- </div> -->
-    <% end %>
-  <!-- </div> -->
-
-
-<br>
-</div>
+    <div class="row">
+       <% @pictures.each do |picture| %>
+          <div class="col-md-6">
+             <div class="each_title"><%= picture.title %></div>
+             <div class="grid_box"><%=  link_to image_tag(picture.url, class: 'img-responsive image_full'), picture_path(picture)%></div>
+             <div class="buttons">
+                <p id="show"><%= link_to 'Click here to Write your Review', picture_path(picture) %></p>
+                <!-- <p id="edit"><%= link_to 'Edit', edit_picture_path(picture) %></p> -->
+                <!-- <p id="destroy"><%= link_to 'Destroy', picture, method: :delete, data: { confirm: 'Are you sure?' } %></p> -->
+             </div>
+          </div>
+       <% end %>
+       <br>
+    </div>
+ </div>
 </div>
 
 <!-- </div>

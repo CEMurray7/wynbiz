@@ -11,7 +11,7 @@ class PicturesController < ApplicationController
   # GET /pictures/1.json
   def show
    # @picture is defined by the private method set_picture invoked by the before_action set at the top of this file
-   @review = @picture.reviews.new
+   @review = Review.new#@picture.reviews.build
   end
 
   # GET /pictures/new

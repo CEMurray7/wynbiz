@@ -5,8 +5,6 @@
 *{
 
 }
-
-
 #logo {
   /*display: flex;*/
   /*width: 100%;*/
@@ -14,6 +12,15 @@
   align-content: center;
   /*padding-left: 20em;*/
   /*padding-right: 20em;*/
+}
+nav {
+   width: 100%;
+   -webkit-box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.49);
+   -moz-box-shadow:    0px 3px 5px rgba(100, 100, 100, 0.49);
+   box-shadow:         0px 3px 5px rgba(100, 100, 100, 0.49);
+}
+.h1, .h2, .h3, .h4, .h5, .h6{
+   font-family: Impact;
 }
 h1 {
   /*display: inline-block;*/
@@ -26,8 +33,6 @@ h1 {
   margin: 1px;
   padding: 2px;
 }
-
-
 h2 {
   text-align: center;
   font: 48px Impact, sans-serif;
@@ -44,7 +49,6 @@ h3 {
   margin: 2px;
   padding: 2px;
 }
-
 body  {
     color: #f7f7f7;
     font: 36px Impact, sans-serif;
@@ -61,8 +65,9 @@ body  {
   border-color: #59acfd;
 }*/
 .each_picture{
+   width: 100%;
   text-align: center;
-  font: 24px Impact, sans-serif;
+  font: 36px Impact, sans-serif;
   color: white;
   text-shadow: 2px 2px black;
   margin: 2px;
@@ -70,10 +75,20 @@ body  {
   /*border: solid;*/
   /*border-color: #59acfd;*/
 }
+.image_fit {
+   width: 100%;
+}
+.grid_box{
+   height: 500px;
+   width: 500px;
+}
+.image_full {
+   width: 100%;
+   height: 100%;
+}
 .each_title {
   /*text-align: center;*/
-  font-size: 24px;
-  color: black;
+
   font: 24px Impact, sans-serif;
   color: white;
   text-shadow: 2px 2px black;
@@ -86,11 +101,15 @@ body  {
   flex-direction: row;
 }
 #show {
+  font-size: 36px;
   font: 24px Impact, sans-serif;
-
+  color: white;
+  text-shadow: 2px 2px black;
+  margin: 2px;
+  padding: 2px;
 }
 #show:link, #show:visited {
-    background-color: #5da3d9;
+    background-color: #ffffff;
     color: white;
     width: 6em;
     height: 2.5em;
@@ -103,5 +122,5 @@ body  {
 }
 
 #show:hover, #show:active {
-    background-color: #ffffff;
+    /*background-color: #ffffff;*/
 }
