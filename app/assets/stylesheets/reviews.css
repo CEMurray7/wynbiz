@@ -23,6 +23,16 @@
   margin: 2px;
   padding: 2px;
 }*/
+
+.grid_box{
+   height: 500px;
+   width: 500px;
+}
+.image_full {
+   width: 100%;
+   height: 100%;
+}
+
 #review {
   text-align: center;
   font: 36px Impact, sans-serif;
