@@ -2,10 +2,24 @@
   Place all the styles related to the matching controller here.
   They will automatically be included in application.css.
 */
-/*.title {
+.title {
   text-align: center;
   font: 36px Impact, sans-serif;
   color: black;
+  margin: 2px;
+  padding: 2px;
+}
+.field {
+  font: 24px Impact, sans-serif;
+  color: white;
+  text-shadow: 2px 2px black;
+  margin: 2px;
+  padding: 2px;
+}
+.new_review {
+  font: 24px Impact, sans-serif;
+  color: white;
+  text-shadow: 2px 2px black;
   margin: 2px;
   padding: 2px;
 }
@@ -22,21 +36,57 @@
   color: black;
   margin: 2px;
   padding: 2px;
-}*/
+}
 
+#review_body {
+  font: 24px Impact, sans-serif;
+  color: white;
+  text-shadow: 2px 2px black;
+  margin: 2px;
+  padding: 2px;
 
+}
 
 #review {
-  text-align: center;
-  font: 36px Impact, sans-serif;
-  color: black;
+  font: 24px Impact, sans-serif;
+  color: white;
+  text-shadow: 2px 2px black;
   margin: 2px;
   padding: 2px;
 }
 #reviewer {
-  text-align: center;
-  font: 36px Impact, sans-serif;
-  color: black;
+  font: 24px Impact, sans-serif;
+  color: white;
+  text-shadow: 2px 2px black;
+  margin: 2px;
+  padding: 2px;
+}
+#review_title {
+  font: 24px Impact, sans-serif;
+  color: white;
+  text-shadow: 2px 2px black;
+  margin: 2px;
+  padding: 2px;
+}
+
+#review_author {
+  font: 24px Impact, sans-serif;
+  color: white;
+  text-shadow: 2px 2px black;
+  margin: 2px;
+  padding: 2px;
+}
+#review_picture {
+  font: 24px Impact, sans-serif;
+  color: white;
+  text-shadow: 2px 2px black;
+  margin: 2px;
+  padding: 2px;
+}
+#show_review {
+  font: 24px Impact, sans-serif;
+  color: white;
+  text-shadow: 2px 2px black;
   margin: 2px;
   padding: 2px;
 }
