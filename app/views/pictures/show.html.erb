@@ -18,7 +18,7 @@
       <p>
          <%= image_tag @picture.url %>
       </p>
-
+      <h3 class="google_map">Google Map</h3>
       <p>
         <div id="map"></div>
         <script async defer
@@ -30,13 +30,13 @@
 
       <%= render partial: 'reviews/list', locals: { reviews: @picture.reviews } %>
 
-      <h2 class="review_body">Add a review:</h2>
+      <h2 class="add_review">Add a review:</h2>
       <%= render 'reviews/form' %>
 
       <%= link_to 'Edit', edit_picture_path(@picture) %> |
       <%= link_to 'Back', pictures_path %>
 
-      <h3>My Google Maps Demo</h3>
+
 
    </div>
 

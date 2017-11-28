@@ -116,7 +116,6 @@ img:hover {
   padding: 2px;
 }
 .each_title {
-
 font: 24px Impact, sans-serif;
   color: white;
   text-shadow: 2px 2px black;
@@ -155,4 +154,22 @@ font: 24px Impact, sans-serif;
 
 #show:hover, #show:active {
     background-color: #ffffff;
+}
+.google_map {
+  text-align: left;
+  font-size: 36px;
+  font: 24px Impact, sans-serif;
+  color: white;
+  text-shadow: 2px 2px black;
+  margin: 2px;
+  padding: 2px;
+}
+.add_review {
+  text-align: left;
+  font-size: 36px;
+  font: 24px Impact, sans-serif;
+  color: white;
+  text-shadow: 2px 2px black;
+  margin: 2px;
+  padding: 2px;
 }
