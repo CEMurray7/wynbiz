@@ -55,16 +55,22 @@ h3 {
   margin: 2px;
   padding: 2px;
 }
-body  {
-
+body {
     font: 36px Impact, sans-serif;
-    background-image: url('https://photos.smugmug.com/Category/Wynwood-Walls/i-cXGBCHJ/0/06ca2ded/L/Robot%20Down2-L.jpg');
+    /*background-image: url('https://photos.smugmug.com/Category/Wynwood-Walls/i-cXGBCHJ/0/06ca2ded/L/Robot%20Down2-L.jpg');*/
+    /*opacity: 0.5;*/
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: #4d4d4d;
     background-position: center;
     background-size: cover;
 }
+
+img:hover {
+    opacity: 0.75;
+    /*filter: alpha(opacity=75); /* For IE8 and earlier */
+}
+
 /*.new_picture-path {
   display: flex;
   border: solid;
@@ -82,18 +88,47 @@ body  {
   /*border-color: #59acfd;*/
 }
 .grid_box {
+
   font: 24px Impact, sans-serif;
   color: white;
   text-shadow: 2px 2px black;
   margin: 2px;
   padding: 2px;
+  height: 500px;
+  width: 500px;
 }
-.image_fit {
-   width: 100%;
-}
-.grid_box{
-   height: 500px;
-   width: 500px;
+@media only screen and (max-width: 768px) {
+   .grid_box {
+      height: 250px;
+      width: 250px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+   }
+
+   .each_picture {
+     text-align: center;
+   }
+   .each_title{
+      text-align: center;
+
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+   }
+   .buttons {
+      display: inline;
+   }
+   .image_fit {
+      width: 100%;
+   }
+   .col-md-6{
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+   }
+
 }
 .image_full {
    width: 100%;
@@ -123,7 +158,6 @@ font: 24px Impact, sans-serif;
 }
 
 .buttons {
-  display: flex;
   flex-direction: row;
   font: 24px Impact, sans-serif;
   color: white;

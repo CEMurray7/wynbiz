@@ -17,3 +17,16 @@
  ul li{
     list-style-type: none;
  }
+.container #background_image{
+   -ms-background-size: cover;
+   -o-background-size: cover;
+   -moz-background-size: cover;
+   -webkit-background-size: cover;
+   background-size: cover;
+   opacity: 0.5;
+   height: 100%;
+   width: 100%;
+}
+.background_image:hover{
+   opacity: none;
+}
