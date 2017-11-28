@@ -1,4 +1,5 @@
 <div class="container">
+   <%#= image_tag('https://photos.smugmug.com/Category/Wynwood-Walls/i-cXGBCHJ/0/06ca2ded/L/Robot%20Down2-L.jpg', id: 'background_image') %>
 <h1  style="text-align: center">
        <%= link_to root_path do %>
           <%= image_tag("/images/rsz_locallove.png") %>
@@ -17,7 +18,7 @@
              </div>
              <div class="grid_box"><%=  link_to image_tag(picture.url, class: 'img-responsive image_full'), picture_path(picture)%></div>
              <div class="buttons">
-                <p id="show"><%= link_to 'Click here to Write your Review', picture_path(picture) %></p>
+                <p id="show"><%= link_to 'Write your Review', picture_path(picture) %></p>
                 <!-- <p id="edit"><%= link_to 'Edit', edit_picture_path(picture) %></p> -->
                 <!-- <p id="destroy"><%= link_to 'Destroy', picture, method: :delete, data: { confirm: 'Are you sure?' } %></p> -->
              </div>
@@ -26,7 +27,7 @@
        <br>
     </div>
 
-         
+
 
 
 </div>
