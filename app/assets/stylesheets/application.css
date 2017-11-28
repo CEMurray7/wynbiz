@@ -36,7 +36,14 @@
       margin-right: auto;
       display: block;
       height: 250px;
-      width: 250px; 
+      width: 250px;
+   }
+   .h1, .h2, .h3, .h4, .h5, .h6{
+      font-family: Impact !important;
+   }
+   a{
+      font: 24px Impact, sans-serif !important;
+      color: white !important;
    }
 
    .each_picture {
@@ -59,6 +66,9 @@
       margin-left: auto;
       margin-right: auto;
       display: block;
+   }
+   h1{
+      font: 72px Impact, sans-serif !important;
    }
 
 }
