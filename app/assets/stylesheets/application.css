@@ -35,8 +35,6 @@
       margin-left: auto;
       margin-right: auto;
       display: block;
-      height: 250px;
-      width: 250px;
    }
    .h1, .h2, .h3, .h4, .h5, .h6{
       font-family: Impact !important;
@@ -72,6 +70,15 @@
    }
 
 }
+@media only screen and (max-width: 600px) {
+   .grid_box {
+      height: 250px;
+      width: 250px;
+   }
+   #map {
+     height: 250px;
+     width: 250px;
+    }
 @media only screen and (max-width: 767 and max-height: 767) {
    /*.grid_box{
       margin-left: auto;
