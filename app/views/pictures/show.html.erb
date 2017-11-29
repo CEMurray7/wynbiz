@@ -11,31 +11,34 @@
 
 
 
-      <p>
+      <p class="each_title">
          <%= @picture.title %>
       </p>
 
-      <p>
-         <%= image_tag @picture.url %>
-      </p>
-      <h3 class="google_map">Google Map</h3>
-      <p>
-        <div id="map"></div>
+      <div class="grid_box">
+         <%= image_tag @picture.url, class: 'image_full' %>
+      </div>
+      <h3 class="google_map each_title">Google Map</h3>
+      <p class="image_full each_title">
+        <div id="map" class="each_title">
         <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=<%=ENV['GOOGLE_API_KEY']%>&callback=initMap">
         </script>
+        </div>
       </p>
+<div class="each_title">
 
       <h2 class="review_body">Reviews</h2>
 
       <%= render partial: 'reviews/list', locals: { reviews: @picture.reviews } %>
 
-      <h2 class="add_review">Add a review:</h2>
+      <h2 class="add_review each_title">Add a review:</h2>
       <%= render 'reviews/form' %>
 
       <%= link_to 'Edit', edit_picture_path(@picture) %> |
       <%= link_to 'Back', pictures_path %>
 
+   </div>
 
 
    </div>
