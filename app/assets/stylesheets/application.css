@@ -27,7 +27,7 @@
    height: 100%;
    width: 100%;
 }
-.background_image:hover{
+.background_image:hover {
    opacity: none;
 }
 @media only screen and (max-width: 768px) {
