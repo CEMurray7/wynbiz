@@ -2,7 +2,7 @@
 
 
 <% if reviews.any? %>
-      <% reviews.each do |review| %>
+      <% reviews.reverse.each do |review| %>
 
          <p id="review_title">
             <%= review.title %>
