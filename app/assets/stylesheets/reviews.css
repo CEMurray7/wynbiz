@@ -64,18 +64,18 @@
   padding: 2px;
 }
 #reviewer {
-  font: 24px Impact, sans-serif;
-  color: white;
-  text-shadow: 2px 2px black;
-  margin: 2px;
-  padding: 2px;
+   font: 18px Courier, serif;
+   color: black;
+   text-shadow: 1px 1px #e7e7e7;
+   margin: 2px;
+   padding: 2px;
 }
 #review_title {
-  font: 18px Courier, serif;
-  color: black;
-  text-shadow: 1px 1px #e7e7e7;
-  margin: 2px;
-  padding: 2px;
+   font: 24px Impact, sans-serif;
+   color: white;
+   text-shadow: 2px 2px black;
+   margin: 2px;
+   padding: 2px;
 }
 
 #review_author {

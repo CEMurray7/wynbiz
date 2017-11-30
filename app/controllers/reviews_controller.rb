@@ -1,5 +1,5 @@
 class ReviewsController < ApplicationController
-   before_action :set_picture, only: [:destroy]
+   before_action :set_picture, only: [:edit, :destroy]
    before_action :set_review, only: [:show, :edit, :update, :destroy]
   # GET /reviews
   # GET /reviews.json
@@ -25,7 +25,6 @@ class ReviewsController < ApplicationController
   # POST /reviews.json
   def create
     @review = Review.new(review_params)
-
     respond_to do |format|
       if @review.save
         format.html { redirect_to picture_path(@review.picture), notice: 'Review was successfully created.' }
@@ -74,6 +73,6 @@ class ReviewsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def review_params
-      params.require(:review).permit(:title, :author, :body, :picture_id)
+      params.require(:review).permit(:title, :author, :body, :picture_id, :user_id)
     end
 end

@@ -1,23 +1,30 @@
+
+
+
 <% if reviews.any? %>
-   <% reviews.each do |review| %>
+      <% reviews.each do |review| %>
 
-      <p id="review_title">
-         <%= review.title %>
-      </p>
-      <p id="reviewer">
-        <%= review.author %>
-      </p>
+         <p id="review_title">
+            <%= review.title %>
+         </p>
+         <p id="reviewer">
+           <%= review.author %>
+         </p>
 
-      <p id="review_body">
-        <%= review.body %>
-      </p>
+         <p id="review_body">
+           <%= review.body %>
+        </p><% if current_user %>
+            <% if current_user.id == review.user_id %>
+            <p>
+              <%= link_to 'Delete Review', [review.picture, review],
+                           method: :delete,
+                           data: { confirm: 'Are you sure?' } %>
+            </p>
+            <p><%= link_to 'Edit Review', edit_picture_review_path(@picture, review) %></p>
+            <% end %>
+         <% end %>
+      <% end %>
 
-      <p>
-        <%= link_to 'Delete Review', [review.picture, review],
-                     method: :delete,
-                     data: { confirm: 'Are you sure?' } %>
-      </p>
-   <% end %>
 <% else %>
    **no reviews yet**
 <% end %>

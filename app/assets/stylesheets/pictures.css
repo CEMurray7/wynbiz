@@ -140,7 +140,7 @@ font: 24px Impact, sans-serif !important;
   padding: 2px;
 }
 #show:link, #show:visited {
-    background-color: white;
+
     color: white;
     width: 6em;
     height: 2.5em;
@@ -152,9 +152,6 @@ font: 24px Impact, sans-serif !important;
     border-color: black;
 }
 
-#show:hover, #show:active {
-    background-color: #ffffff;
-}
 .google_map {
   text-align: left;
   font-size: 36px;

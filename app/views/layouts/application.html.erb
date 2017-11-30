@@ -7,14 +7,35 @@
     <link rel="stylesheets" type="text/css" href="pictures.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 
   </head>
 
-  <body style="background-color: #B4B8AB">
+  <body style="background-color: #4F6272">
+
+<p id="notice"><%= notice %></p>
+
+<nav>
+     <ul class="nav justify-content-center">
+       <li class="nav-item">
+         <%= link_to 'Home', root_path, class: 'navlnk' %>
+       </li>
+       <li class="nav-item">
+         <%= link_to 'Sign In', new_user_session_path %>
+       </li>
+       <li class="nav-item">
+         <%= link_to 'Sign Up', new_user_registration_path %>
+       </li>
+       <li class="nav-item">
+          <%= link_to 'Sign out', destroy_user_session_path,
+          method: :delete, data: { confirm: 'Are you sure?' } %>
+       </li>
+     </ul>
+     </nav>
+
     <%= yield %>
   </body>
 </html>
